@@ -24,22 +24,8 @@ namespace VirtualKeyboard
             InitializeComponent();
             keyboard = new Keyboard();
         }
-        //key up listener
-        void textBox1_KeyUp(object sender, KeyEventArgs e)
-        {
-            resetKeyColor();
-        }
-        //key press listener
-        private void Form1_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            Debug.WriteLine("key: {0}", e.KeyChar);
-            //printTextbox(e.KeyChar);
-            //Debug.WriteLine("called");
-        }
-        /*private void Form1_KeyUp(object sender, KeyPressEventArgs e)
-        {
-            resetKeyColor();
-        }*/
+
+
         //probably auto generated and not needed.
         private void Form1_Load(object sender, EventArgs e)
         {
