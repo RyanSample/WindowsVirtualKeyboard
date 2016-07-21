@@ -83,7 +83,7 @@ namespace VirtualKeyboard
         private void alphabetButtonClicked(object sender, MouseEventArgs e)
         {
             Button button = sender as Button;
-            Console.WriteLine(button.Text.ToLower());
+            keyboard.alphabetKeyPressed(button.Text.ToLower());
         }
 
         private void shiftKeyButtonClicked(object sender, MouseEventArgs e)
@@ -91,7 +91,6 @@ namespace VirtualKeyboard
             Button button = sender as Button;
             keyboard.shiftKeyPressed();
             determineShiftKeyStateAndSetBackgroundColor();
-            //keyboard.alphabetKeyPressed();
         }
         //TODO finish shift method so that when an another key is pressed you get the caps version of it and then turn off shift.
         private void determineShiftKeyStateAndSetBackgroundColor()

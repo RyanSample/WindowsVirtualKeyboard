@@ -51,9 +51,12 @@ namespace VirtualKeyboard
             altKeyOn = !altKeyOn;
         }
 
-        public void alphabetKeyPressed()
+        public void alphabetKeyPressed(string buttonText)
         {
-            Console.WriteLine("Test");
+            if (getShiftKeyState())
+                Console.WriteLine(buttonText.ToUpper());
+            else
+                Console.WriteLine(buttonText);
         }
 
         //get methods return the current state of the keys pressed
