@@ -78,7 +78,7 @@ namespace VirtualKeyboard
             keyboard.shiftKeyPressed();
             determineShiftKeyStateAndSetBackgroundColor();
         }
-        //TODO finish shift method so that when an another key is pressed you get the caps version of it and then turn off shift.
+        
         private void determineShiftKeyStateAndSetBackgroundColor()
         {
             if (!keyboard.getShiftKeyState())//shiftkey is already on

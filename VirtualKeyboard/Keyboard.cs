@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace VirtualKeyboard
 {
@@ -59,6 +60,12 @@ namespace VirtualKeyboard
                 Console.WriteLine(buttonText);
         }
 
+        public void numericalOrSymbolKeyPressed(Button inputButton)
+        {
+            //TODO need to split string and then determine which key to press
+            //the first string in the split array will only be the output if shift is on. 
+            String buttonText = inputButton.Text;
+        }
         //get methods return the current state of the keys pressed
         public bool getShiftKeyState()
         {
