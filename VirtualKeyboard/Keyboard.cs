@@ -54,10 +54,15 @@ namespace VirtualKeyboard
 
         public void alphabetKeyPressed(string buttonText)
         {
-            if (getShiftKeyState())
+            if (getShiftKeyState()) { 
                 Console.WriteLine(buttonText.ToUpper());
-            else
-                Console.WriteLine(buttonText);
+				SendKeys.Send(buttonText.ToUpper());
+			}
+			else         
+			{
+				Console.WriteLine(buttonText);
+				SendKeys.Send(buttonText); 
+			}
         }
 
         public void numericalOrSymbolKeyPressed(Button inputButton)

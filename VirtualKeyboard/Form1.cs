@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Diagnostics;//for debugging
+using System.Diagnostics;
 /**
  * Code Written by Ryan Sample
  **/
@@ -15,14 +15,24 @@ namespace VirtualKeyboard
 {
     public partial class Form1 : Form
     {
-        private Button prevkey;
+        //private Button prevkey;
         private Color defaultColor = Color.FromKnownColor(KnownColor.ControlDarkDark);
         private Keyboard keyboard;
 
-        public Form1()
+		protected override CreateParams CreateParams
+		{
+			get
+			{
+				CreateParams param = base.CreateParams;
+				param.ExStyle |= 0x08000000;
+				return param;
+			}
+		}
+		public Form1()
         {
             InitializeComponent();
             keyboard = new Keyboard();
+			this.TopMost = true;
         }
 
         
