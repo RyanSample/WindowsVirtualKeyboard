@@ -16,7 +16,7 @@ namespace VirtualKeyboard
     public partial class Form1 : Form
     {
         private Button prevkey;
-        private Color defaultColor = Color.FromKnownColor(KnownColor.Control);
+        private Color defaultColor = Color.FromKnownColor(KnownColor.ControlDarkDark);
         private Keyboard keyboard;
 
         public Form1()
@@ -25,8 +25,7 @@ namespace VirtualKeyboard
             keyboard = new Keyboard();
         }
 
-
-        //probably auto generated and not needed.
+        
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -54,8 +53,8 @@ namespace VirtualKeyboard
         }
         private void resetShiftKeyBackgroundColor()
         {
-            LShift.BackColor = DefaultBackColor;
-            RShift.BackColor = DefaultBackColor;
+            LShift.BackColor = defaultColor;
+            RShift.BackColor = defaultColor;
         }
         //sets the key color for each character entered. also saved a ton of space
         private void setKeyColor(Button button)
@@ -69,6 +68,7 @@ namespace VirtualKeyboard
         private void alphabetButtonClicked(object sender, MouseEventArgs e)
         {
             Button button = sender as Button;
+			Console.Write("alpha key pressed");
             keyboard.alphabetKeyPressed(button.Text.ToLower());
         }
 

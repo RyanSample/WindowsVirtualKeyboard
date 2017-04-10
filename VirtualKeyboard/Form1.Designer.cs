@@ -424,6 +424,7 @@
 			this.RShift.Text = "Shift";
 			this.RShift.TextAlign = System.Drawing.ContentAlignment.TopLeft;
 			this.RShift.UseVisualStyleBackColor = false;
+			this.RShift.MouseClick += new System.Windows.Forms.MouseEventHandler(this.shiftKeyButtonClicked);
 			// 
 			// slashkey
 			// 
