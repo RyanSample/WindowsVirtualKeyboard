@@ -31,20 +31,6 @@ namespace VirtualKeyboard
 
         }
        
-        //resets the previous key's color
-        private void resetKeyColor()
-        {
-            LShift.BackColor = DefaultBackColor;
-            RShift.BackColor = DefaultBackColor;
-            if (prevkey != null)
-            {
-                prevkey.BackColor = defaultColor;//reset color
-            }
-            else
-            {
-                Debug.WriteLine("Prevkey is null.");
-            }
-        }
         //colors both of the shift keys. This method saved a ton of space
         private void setShiftKeyBackGroundColorToHighlighted()
         {
@@ -55,14 +41,6 @@ namespace VirtualKeyboard
         {
             LShift.BackColor = defaultColor;
             RShift.BackColor = defaultColor;
-        }
-        //sets the key color for each character entered. also saved a ton of space
-        private void setKeyColor(Button button)
-        {
-            
-            defaultColor = button.BackColor;
-            prevkey = button;
-            button.BackColor = Color.Blue;
         }
 
         private void alphabetButtonClicked(object sender, MouseEventArgs e)
