@@ -114,6 +114,7 @@
 			this.onekey.TabIndex = 1;
 			this.onekey.Text = "!\r\n1";
 			this.onekey.UseVisualStyleBackColor = false;
+			this.onekey.MouseClick += new System.Windows.Forms.MouseEventHandler(this.numericalKeyClicked);
 			// 
 			// threekey
 			// 
@@ -125,6 +126,7 @@
 			this.threekey.TabIndex = 3;
 			this.threekey.Text = "#\r\n3";
 			this.threekey.UseVisualStyleBackColor = false;
+			this.threekey.MouseClick += new System.Windows.Forms.MouseEventHandler(this.numericalKeyClicked);
 			// 
 			// twokey
 			// 
@@ -136,6 +138,7 @@
 			this.twokey.TabIndex = 2;
 			this.twokey.Text = "@\r\n2";
 			this.twokey.UseVisualStyleBackColor = false;
+			this.twokey.MouseClick += new System.Windows.Forms.MouseEventHandler(this.numericalKeyClicked);
 			// 
 			// fivekey
 			// 
@@ -147,6 +150,7 @@
 			this.fivekey.TabIndex = 5;
 			this.fivekey.Text = "%\r\n5";
 			this.fivekey.UseVisualStyleBackColor = false;
+			this.fivekey.MouseClick += new System.Windows.Forms.MouseEventHandler(this.numericalKeyClicked);
 			// 
 			// fourkey
 			// 
@@ -158,6 +162,7 @@
 			this.fourkey.TabIndex = 4;
 			this.fourkey.Text = "$\r\n4";
 			this.fourkey.UseVisualStyleBackColor = false;
+			this.fourkey.MouseClick += new System.Windows.Forms.MouseEventHandler(this.numericalKeyClicked);
 			// 
 			// sevenkey
 			// 
@@ -169,6 +174,7 @@
 			this.sevenkey.TabIndex = 7;
 			this.sevenkey.Text = "&&\r\n7";
 			this.sevenkey.UseVisualStyleBackColor = false;
+			this.sevenkey.MouseClick += new System.Windows.Forms.MouseEventHandler(this.numericalKeyClicked);
 			// 
 			// sixkey
 			// 
@@ -180,6 +186,7 @@
 			this.sixkey.TabIndex = 6;
 			this.sixkey.Text = "^\r\n6";
 			this.sixkey.UseVisualStyleBackColor = false;
+			this.sixkey.MouseClick += new System.Windows.Forms.MouseEventHandler(this.numericalKeyClicked);
 			// 
 			// ninekey
 			// 
@@ -191,6 +198,7 @@
 			this.ninekey.TabIndex = 9;
 			this.ninekey.Text = "(\r\n9";
 			this.ninekey.UseVisualStyleBackColor = false;
+			this.ninekey.MouseClick += new System.Windows.Forms.MouseEventHandler(this.numericalKeyClicked);
 			// 
 			// eightkey
 			// 
@@ -202,6 +210,7 @@
 			this.eightkey.TabIndex = 8;
 			this.eightkey.Text = "*\r\n8";
 			this.eightkey.UseVisualStyleBackColor = false;
+			this.eightkey.MouseClick += new System.Windows.Forms.MouseEventHandler(this.numericalKeyClicked);
 			// 
 			// minusKey
 			// 
@@ -213,6 +222,7 @@
 			this.minusKey.TabIndex = 11;
 			this.minusKey.Text = "_\r\n-";
 			this.minusKey.UseVisualStyleBackColor = false;
+			
 			// 
 			// zerokey
 			// 
@@ -224,6 +234,7 @@
 			this.zerokey.TabIndex = 10;
 			this.zerokey.Text = ")\r\n0";
 			this.zerokey.UseVisualStyleBackColor = false;
+			this.zerokey.MouseClick += new System.Windows.Forms.MouseEventHandler(this.numericalKeyClicked);
 			// 
 			// backspace
 			// 
@@ -709,6 +720,7 @@
 			this.capslock.Text = "Caps\r\nLock";
 			this.capslock.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this.capslock.UseVisualStyleBackColor = false;
+			this.capslock.MouseClick += new System.Windows.Forms.MouseEventHandler(this.capsLockKeyClicked);
 			// 
 			// RCtrl
 			// 

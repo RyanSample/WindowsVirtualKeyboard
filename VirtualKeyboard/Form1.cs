@@ -56,7 +56,6 @@ namespace VirtualKeyboard
         private void alphabetButtonClicked(object sender, MouseEventArgs e)
         {
             Button button = sender as Button;
-			Console.Write("alpha key pressed");
             keyboard.alphabetKeyPressed(button.Text.ToLower());
         }
 
@@ -67,6 +66,24 @@ namespace VirtualKeyboard
             determineShiftKeyStateAndSetBackgroundColor();
         }
         
+		private void capsLockKeyClicked(object sender, MouseEventArgs e)
+		{
+			if (keyboard.getCapsLockKeyState())
+			{
+				capslock.BackColor = defaultColor;
+				keyboard.capsLockKeyPressed();
+			}else
+			{
+				capslock.BackColor = Color.Blue;
+				keyboard.capsLockKeyPressed();
+			}
+		}
+		private void numericalKeyClicked(object sender, MouseEventArgs e)
+		{
+			Button button = sender as Button;
+			keyboard.numericalOrSymbolKeyPressed(button);
+		}
+
         private void determineShiftKeyStateAndSetBackgroundColor()
         {
             if (!keyboard.getShiftKeyState())//shiftkey is already on
