@@ -70,9 +70,7 @@ namespace VirtualKeyboard
             //TODO need to split string and then determine which key to press
             //the first string in the split array will only be the output if shift is on. 
 			//by default we need to get the character after the return so the characters[1]
-            String buttonText = inputButton.Text;
-			string[] separators = new string[] { "\r\n" };
-			string[] characters = buttonText.Split(separators, StringSplitOptions.None);
+			string[] characters = getButtonCharacters(inputButton);
 			if (getShiftKeyState())
 			{
 				//windows forms uses an '&' as an escape character so when we hit shift+7 we get '&&' instead of '&'
@@ -88,6 +86,20 @@ namespace VirtualKeyboard
 				SendKeys.Send("{" + characters[1] + "}");
 			}
         }
+		//this method will take care of handling inputs that may have special meaning such as brackets
+		public void symbolOnlyKeyPressed(Button inputButton)
+		{
+			string[] characters = getButtonCharacters(inputButton);
+			
+		}
+
+		private static string[] getButtonCharacters(Button inputButton)
+		{
+			string buttonText = inputButton.Text;
+			string[] separators = new string[] { "\r\n" };
+			return buttonText.Split(separators, StringSplitOptions.None);
+		}
+
         //get methods return the current state of the keys pressed
         public bool getShiftKeyState()
         {

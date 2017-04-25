@@ -103,6 +103,7 @@
 			this.tilde.TabIndex = 0;
 			this.tilde.Text = "~\r\n`";
 			this.tilde.UseVisualStyleBackColor = false;
+			this.tilde.MouseClick += new System.Windows.Forms.MouseEventHandler(this.numericalKeyClicked);
 			// 
 			// onekey
 			// 
@@ -222,7 +223,8 @@
 			this.minusKey.TabIndex = 11;
 			this.minusKey.Text = "_\r\n-";
 			this.minusKey.UseVisualStyleBackColor = false;
-			
+			this.minusKey.MouseClick += new System.Windows.Forms.MouseEventHandler(this.numericalKeyClicked);
+
 			// 
 			// zerokey
 			// 
@@ -258,6 +260,7 @@
 			this.equalsKey.TabIndex = 12;
 			this.equalsKey.Text = "+\r\n=";
 			this.equalsKey.UseVisualStyleBackColor = false;
+			this.equalsKey.MouseClick += new System.Windows.Forms.MouseEventHandler(this.numericalKeyClicked);
 			// 
 			// backslash
 			// 
@@ -269,6 +272,7 @@
 			this.backslash.TabIndex = 27;
 			this.backslash.Text = "|\r\n\\";
 			this.backslash.UseVisualStyleBackColor = false;
+			this.backslash.MouseClick += new System.Windows.Forms.MouseEventHandler(this.numericalKeyClicked);
 			// 
 			// Rbrack
 			// 
@@ -280,6 +284,7 @@
 			this.Rbrack.TabIndex = 26;
 			this.Rbrack.Text = "}\r\n]";
 			this.Rbrack.UseVisualStyleBackColor = false;
+			this.Rbrack.MouseClick += new System.Windows.Forms.MouseEventHandler(this.numericalKeyClicked);
 			// 
 			// Lbrack
 			// 
@@ -291,6 +296,7 @@
 			this.Lbrack.TabIndex = 25;
 			this.Lbrack.Text = "{\r\n[";
 			this.Lbrack.UseVisualStyleBackColor = false;
+			this.Lbrack.MouseClick += new System.Windows.Forms.MouseEventHandler(this.numericalKeyClicked);
 			// 
 			// Pkey
 			// 
@@ -447,6 +453,7 @@
 			this.slashkey.TabIndex = 54;
 			this.slashkey.Text = "?\r\n/";
 			this.slashkey.UseVisualStyleBackColor = false;
+			this.slashkey.MouseClick += new System.Windows.Forms.MouseEventHandler(this.numericalKeyClicked);
 			// 
 			// periodKey
 			// 
@@ -458,6 +465,7 @@
 			this.periodKey.TabIndex = 53;
 			this.periodKey.Text = ">\r\n.";
 			this.periodKey.UseVisualStyleBackColor = false;
+			this.periodKey.MouseClick += new System.Windows.Forms.MouseEventHandler(this.numericalKeyClicked);
 			// 
 			// commaKey
 			// 
@@ -469,6 +477,7 @@
 			this.commaKey.TabIndex = 52;
 			this.commaKey.Text = "<\r\n,";
 			this.commaKey.UseVisualStyleBackColor = false;
+			this.commaKey.MouseClick += new System.Windows.Forms.MouseEventHandler(this.numericalKeyClicked);
 			// 
 			// Mkey
 			// 
@@ -589,6 +598,7 @@
 			this.quote.TabIndex = 40;
 			this.quote.Text = "\"\r\n\'";
 			this.quote.UseVisualStyleBackColor = false;
+			this.quote.MouseClick += new System.Windows.Forms.MouseEventHandler(this.numericalKeyClicked);
 			// 
 			// semicolon
 			// 
@@ -600,6 +610,7 @@
 			this.semicolon.TabIndex = 39;
 			this.semicolon.Text = ":\r\n;";
 			this.semicolon.UseVisualStyleBackColor = false;
+			this.semicolon.MouseClick += new System.Windows.Forms.MouseEventHandler(this.numericalKeyClicked);
 			// 
 			// Lkey
 			// 
