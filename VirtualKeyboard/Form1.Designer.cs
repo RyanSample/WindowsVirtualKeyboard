@@ -90,6 +90,20 @@
 			this.button41 = new System.Windows.Forms.Button();
 			this.button55 = new System.Windows.Forms.Button();
 			this.Keyboard = new System.Windows.Forms.GroupBox();
+			this.Function4 = new System.Windows.Forms.Button();
+			this.Function3 = new System.Windows.Forms.Button();
+			this.Function2 = new System.Windows.Forms.Button();
+			this.Function1 = new System.Windows.Forms.Button();
+			this.Function8 = new System.Windows.Forms.Button();
+			this.Function7 = new System.Windows.Forms.Button();
+			this.Function6 = new System.Windows.Forms.Button();
+			this.Function5 = new System.Windows.Forms.Button();
+			this.Function12 = new System.Windows.Forms.Button();
+			this.Function11 = new System.Windows.Forms.Button();
+			this.Function10 = new System.Windows.Forms.Button();
+			this.Function9 = new System.Windows.Forms.Button();
+			this.EscapeKey = new System.Windows.Forms.Button();
+			this.FinishKeyComboButton = new System.Windows.Forms.Button();
 			this.Keyboard.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -97,7 +111,7 @@
 			// 
 			this.tilde.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.tilde.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.tilde.Location = new System.Drawing.Point(25, 18);
+			this.tilde.Location = new System.Drawing.Point(47, 76);
 			this.tilde.Name = "tilde";
 			this.tilde.Size = new System.Drawing.Size(47, 47);
 			this.tilde.TabIndex = 0;
@@ -109,7 +123,7 @@
 			// 
 			this.onekey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.onekey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.onekey.Location = new System.Drawing.Point(78, 18);
+			this.onekey.Location = new System.Drawing.Point(100, 76);
 			this.onekey.Name = "onekey";
 			this.onekey.Size = new System.Drawing.Size(47, 47);
 			this.onekey.TabIndex = 1;
@@ -121,7 +135,7 @@
 			// 
 			this.threekey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.threekey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.threekey.Location = new System.Drawing.Point(184, 18);
+			this.threekey.Location = new System.Drawing.Point(206, 76);
 			this.threekey.Name = "threekey";
 			this.threekey.Size = new System.Drawing.Size(47, 47);
 			this.threekey.TabIndex = 3;
@@ -133,7 +147,7 @@
 			// 
 			this.twokey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.twokey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.twokey.Location = new System.Drawing.Point(131, 18);
+			this.twokey.Location = new System.Drawing.Point(153, 76);
 			this.twokey.Name = "twokey";
 			this.twokey.Size = new System.Drawing.Size(47, 47);
 			this.twokey.TabIndex = 2;
@@ -145,7 +159,7 @@
 			// 
 			this.fivekey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.fivekey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.fivekey.Location = new System.Drawing.Point(290, 18);
+			this.fivekey.Location = new System.Drawing.Point(312, 76);
 			this.fivekey.Name = "fivekey";
 			this.fivekey.Size = new System.Drawing.Size(47, 47);
 			this.fivekey.TabIndex = 5;
@@ -157,7 +171,7 @@
 			// 
 			this.fourkey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.fourkey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.fourkey.Location = new System.Drawing.Point(237, 18);
+			this.fourkey.Location = new System.Drawing.Point(259, 76);
 			this.fourkey.Name = "fourkey";
 			this.fourkey.Size = new System.Drawing.Size(47, 47);
 			this.fourkey.TabIndex = 4;
@@ -169,7 +183,7 @@
 			// 
 			this.sevenkey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.sevenkey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.sevenkey.Location = new System.Drawing.Point(396, 18);
+			this.sevenkey.Location = new System.Drawing.Point(418, 76);
 			this.sevenkey.Name = "sevenkey";
 			this.sevenkey.Size = new System.Drawing.Size(47, 47);
 			this.sevenkey.TabIndex = 7;
@@ -181,7 +195,7 @@
 			// 
 			this.sixkey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.sixkey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.sixkey.Location = new System.Drawing.Point(343, 18);
+			this.sixkey.Location = new System.Drawing.Point(365, 76);
 			this.sixkey.Name = "sixkey";
 			this.sixkey.Size = new System.Drawing.Size(47, 47);
 			this.sixkey.TabIndex = 6;
@@ -193,7 +207,7 @@
 			// 
 			this.ninekey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.ninekey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.ninekey.Location = new System.Drawing.Point(502, 18);
+			this.ninekey.Location = new System.Drawing.Point(524, 76);
 			this.ninekey.Name = "ninekey";
 			this.ninekey.Size = new System.Drawing.Size(47, 47);
 			this.ninekey.TabIndex = 9;
@@ -205,7 +219,7 @@
 			// 
 			this.eightkey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.eightkey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.eightkey.Location = new System.Drawing.Point(449, 18);
+			this.eightkey.Location = new System.Drawing.Point(471, 76);
 			this.eightkey.Name = "eightkey";
 			this.eightkey.Size = new System.Drawing.Size(47, 47);
 			this.eightkey.TabIndex = 8;
@@ -217,20 +231,19 @@
 			// 
 			this.minusKey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.minusKey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.minusKey.Location = new System.Drawing.Point(608, 18);
+			this.minusKey.Location = new System.Drawing.Point(630, 76);
 			this.minusKey.Name = "minusKey";
 			this.minusKey.Size = new System.Drawing.Size(47, 47);
 			this.minusKey.TabIndex = 11;
 			this.minusKey.Text = "_\r\n-";
 			this.minusKey.UseVisualStyleBackColor = false;
 			this.minusKey.MouseClick += new System.Windows.Forms.MouseEventHandler(this.numericalKeyClicked);
-
 			// 
 			// zerokey
 			// 
 			this.zerokey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.zerokey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.zerokey.Location = new System.Drawing.Point(555, 18);
+			this.zerokey.Location = new System.Drawing.Point(577, 76);
 			this.zerokey.Name = "zerokey";
 			this.zerokey.Size = new System.Drawing.Size(47, 47);
 			this.zerokey.TabIndex = 10;
@@ -242,7 +255,7 @@
 			// 
 			this.backspace.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.backspace.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.backspace.Location = new System.Drawing.Point(714, 18);
+			this.backspace.Location = new System.Drawing.Point(736, 76);
 			this.backspace.Name = "backspace";
 			this.backspace.Size = new System.Drawing.Size(106, 47);
 			this.backspace.TabIndex = 13;
@@ -254,7 +267,7 @@
 			// 
 			this.equalsKey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.equalsKey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.equalsKey.Location = new System.Drawing.Point(661, 18);
+			this.equalsKey.Location = new System.Drawing.Point(683, 76);
 			this.equalsKey.Name = "equalsKey";
 			this.equalsKey.Size = new System.Drawing.Size(47, 47);
 			this.equalsKey.TabIndex = 12;
@@ -266,7 +279,7 @@
 			// 
 			this.backslash.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.backslash.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.backslash.Location = new System.Drawing.Point(746, 71);
+			this.backslash.Location = new System.Drawing.Point(768, 129);
 			this.backslash.Name = "backslash";
 			this.backslash.Size = new System.Drawing.Size(74, 47);
 			this.backslash.TabIndex = 27;
@@ -278,7 +291,7 @@
 			// 
 			this.Rbrack.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.Rbrack.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.Rbrack.Location = new System.Drawing.Point(687, 71);
+			this.Rbrack.Location = new System.Drawing.Point(709, 129);
 			this.Rbrack.Name = "Rbrack";
 			this.Rbrack.Size = new System.Drawing.Size(47, 47);
 			this.Rbrack.TabIndex = 26;
@@ -290,7 +303,7 @@
 			// 
 			this.Lbrack.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.Lbrack.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.Lbrack.Location = new System.Drawing.Point(634, 71);
+			this.Lbrack.Location = new System.Drawing.Point(656, 129);
 			this.Lbrack.Name = "Lbrack";
 			this.Lbrack.Size = new System.Drawing.Size(47, 47);
 			this.Lbrack.TabIndex = 25;
@@ -302,7 +315,7 @@
 			// 
 			this.Pkey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.Pkey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.Pkey.Location = new System.Drawing.Point(581, 71);
+			this.Pkey.Location = new System.Drawing.Point(603, 129);
 			this.Pkey.Name = "Pkey";
 			this.Pkey.Size = new System.Drawing.Size(47, 47);
 			this.Pkey.TabIndex = 24;
@@ -314,7 +327,7 @@
 			// 
 			this.Okey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.Okey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.Okey.Location = new System.Drawing.Point(528, 71);
+			this.Okey.Location = new System.Drawing.Point(550, 129);
 			this.Okey.Name = "Okey";
 			this.Okey.Size = new System.Drawing.Size(47, 47);
 			this.Okey.TabIndex = 23;
@@ -326,7 +339,7 @@
 			// 
 			this.Ikey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.Ikey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.Ikey.Location = new System.Drawing.Point(475, 71);
+			this.Ikey.Location = new System.Drawing.Point(497, 129);
 			this.Ikey.Name = "Ikey";
 			this.Ikey.Size = new System.Drawing.Size(47, 47);
 			this.Ikey.TabIndex = 22;
@@ -338,7 +351,7 @@
 			// 
 			this.Ukey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.Ukey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.Ukey.Location = new System.Drawing.Point(422, 71);
+			this.Ukey.Location = new System.Drawing.Point(444, 129);
 			this.Ukey.Name = "Ukey";
 			this.Ukey.Size = new System.Drawing.Size(47, 47);
 			this.Ukey.TabIndex = 21;
@@ -350,7 +363,7 @@
 			// 
 			this.Ykey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.Ykey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.Ykey.Location = new System.Drawing.Point(369, 71);
+			this.Ykey.Location = new System.Drawing.Point(391, 129);
 			this.Ykey.Name = "Ykey";
 			this.Ykey.Size = new System.Drawing.Size(47, 47);
 			this.Ykey.TabIndex = 20;
@@ -362,7 +375,7 @@
 			// 
 			this.Tkey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.Tkey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.Tkey.Location = new System.Drawing.Point(316, 71);
+			this.Tkey.Location = new System.Drawing.Point(338, 129);
 			this.Tkey.Name = "Tkey";
 			this.Tkey.Size = new System.Drawing.Size(47, 47);
 			this.Tkey.TabIndex = 19;
@@ -374,7 +387,7 @@
 			// 
 			this.Rkey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.Rkey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.Rkey.Location = new System.Drawing.Point(263, 71);
+			this.Rkey.Location = new System.Drawing.Point(285, 129);
 			this.Rkey.Name = "Rkey";
 			this.Rkey.Size = new System.Drawing.Size(47, 47);
 			this.Rkey.TabIndex = 18;
@@ -386,7 +399,7 @@
 			// 
 			this.Ekey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.Ekey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.Ekey.Location = new System.Drawing.Point(210, 71);
+			this.Ekey.Location = new System.Drawing.Point(232, 129);
 			this.Ekey.Name = "Ekey";
 			this.Ekey.Size = new System.Drawing.Size(47, 47);
 			this.Ekey.TabIndex = 17;
@@ -398,7 +411,7 @@
 			// 
 			this.Wkey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.Wkey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.Wkey.Location = new System.Drawing.Point(157, 71);
+			this.Wkey.Location = new System.Drawing.Point(179, 129);
 			this.Wkey.Name = "Wkey";
 			this.Wkey.Size = new System.Drawing.Size(47, 47);
 			this.Wkey.TabIndex = 16;
@@ -410,7 +423,7 @@
 			// 
 			this.Qkey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.Qkey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.Qkey.Location = new System.Drawing.Point(104, 71);
+			this.Qkey.Location = new System.Drawing.Point(126, 129);
 			this.Qkey.Name = "Qkey";
 			this.Qkey.Size = new System.Drawing.Size(47, 47);
 			this.Qkey.TabIndex = 15;
@@ -422,7 +435,7 @@
 			// 
 			this.tab.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.tab.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.tab.Location = new System.Drawing.Point(25, 71);
+			this.tab.Location = new System.Drawing.Point(47, 129);
 			this.tab.Name = "tab";
 			this.tab.Size = new System.Drawing.Size(71, 47);
 			this.tab.TabIndex = 14;
@@ -434,7 +447,7 @@
 			// 
 			this.RShift.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.RShift.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.RShift.Location = new System.Drawing.Point(670, 177);
+			this.RShift.Location = new System.Drawing.Point(692, 235);
 			this.RShift.Name = "RShift";
 			this.RShift.Size = new System.Drawing.Size(150, 47);
 			this.RShift.TabIndex = 55;
@@ -447,7 +460,7 @@
 			// 
 			this.slashkey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.slashkey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.slashkey.Location = new System.Drawing.Point(617, 177);
+			this.slashkey.Location = new System.Drawing.Point(639, 235);
 			this.slashkey.Name = "slashkey";
 			this.slashkey.Size = new System.Drawing.Size(47, 47);
 			this.slashkey.TabIndex = 54;
@@ -459,7 +472,7 @@
 			// 
 			this.periodKey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.periodKey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.periodKey.Location = new System.Drawing.Point(564, 177);
+			this.periodKey.Location = new System.Drawing.Point(586, 235);
 			this.periodKey.Name = "periodKey";
 			this.periodKey.Size = new System.Drawing.Size(47, 47);
 			this.periodKey.TabIndex = 53;
@@ -471,7 +484,7 @@
 			// 
 			this.commaKey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.commaKey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.commaKey.Location = new System.Drawing.Point(511, 177);
+			this.commaKey.Location = new System.Drawing.Point(533, 235);
 			this.commaKey.Name = "commaKey";
 			this.commaKey.Size = new System.Drawing.Size(47, 47);
 			this.commaKey.TabIndex = 52;
@@ -483,7 +496,7 @@
 			// 
 			this.Mkey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.Mkey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.Mkey.Location = new System.Drawing.Point(458, 177);
+			this.Mkey.Location = new System.Drawing.Point(480, 235);
 			this.Mkey.Name = "Mkey";
 			this.Mkey.Size = new System.Drawing.Size(47, 47);
 			this.Mkey.TabIndex = 51;
@@ -495,7 +508,7 @@
 			// 
 			this.Nkey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.Nkey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.Nkey.Location = new System.Drawing.Point(405, 177);
+			this.Nkey.Location = new System.Drawing.Point(427, 235);
 			this.Nkey.Name = "Nkey";
 			this.Nkey.Size = new System.Drawing.Size(47, 47);
 			this.Nkey.TabIndex = 50;
@@ -507,7 +520,7 @@
 			// 
 			this.Bkey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.Bkey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.Bkey.Location = new System.Drawing.Point(352, 177);
+			this.Bkey.Location = new System.Drawing.Point(374, 235);
 			this.Bkey.Name = "Bkey";
 			this.Bkey.Size = new System.Drawing.Size(47, 47);
 			this.Bkey.TabIndex = 49;
@@ -519,7 +532,7 @@
 			// 
 			this.Vkey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.Vkey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.Vkey.Location = new System.Drawing.Point(299, 177);
+			this.Vkey.Location = new System.Drawing.Point(321, 235);
 			this.Vkey.Name = "Vkey";
 			this.Vkey.Size = new System.Drawing.Size(47, 47);
 			this.Vkey.TabIndex = 48;
@@ -531,7 +544,7 @@
 			// 
 			this.Ckey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.Ckey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.Ckey.Location = new System.Drawing.Point(246, 177);
+			this.Ckey.Location = new System.Drawing.Point(268, 235);
 			this.Ckey.Name = "Ckey";
 			this.Ckey.Size = new System.Drawing.Size(47, 47);
 			this.Ckey.TabIndex = 47;
@@ -543,7 +556,7 @@
 			// 
 			this.Xkey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.Xkey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.Xkey.Location = new System.Drawing.Point(193, 177);
+			this.Xkey.Location = new System.Drawing.Point(215, 235);
 			this.Xkey.Name = "Xkey";
 			this.Xkey.Size = new System.Drawing.Size(47, 47);
 			this.Xkey.TabIndex = 46;
@@ -555,7 +568,7 @@
 			// 
 			this.Zkey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.Zkey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.Zkey.Location = new System.Drawing.Point(140, 177);
+			this.Zkey.Location = new System.Drawing.Point(162, 235);
 			this.Zkey.Name = "Zkey";
 			this.Zkey.Size = new System.Drawing.Size(47, 47);
 			this.Zkey.TabIndex = 45;
@@ -567,7 +580,7 @@
 			// 
 			this.LShift.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.LShift.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.LShift.Location = new System.Drawing.Point(25, 177);
+			this.LShift.Location = new System.Drawing.Point(47, 235);
 			this.LShift.Name = "LShift";
 			this.LShift.Size = new System.Drawing.Size(109, 47);
 			this.LShift.TabIndex = 42;
@@ -580,7 +593,7 @@
 			// 
 			this.enterKey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.enterKey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.enterKey.Location = new System.Drawing.Point(701, 124);
+			this.enterKey.Location = new System.Drawing.Point(723, 182);
 			this.enterKey.Name = "enterKey";
 			this.enterKey.Size = new System.Drawing.Size(119, 47);
 			this.enterKey.TabIndex = 41;
@@ -592,7 +605,7 @@
 			// 
 			this.quote.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.quote.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.quote.Location = new System.Drawing.Point(648, 124);
+			this.quote.Location = new System.Drawing.Point(670, 182);
 			this.quote.Name = "quote";
 			this.quote.Size = new System.Drawing.Size(47, 47);
 			this.quote.TabIndex = 40;
@@ -604,7 +617,7 @@
 			// 
 			this.semicolon.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.semicolon.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.semicolon.Location = new System.Drawing.Point(595, 124);
+			this.semicolon.Location = new System.Drawing.Point(617, 182);
 			this.semicolon.Name = "semicolon";
 			this.semicolon.Size = new System.Drawing.Size(47, 47);
 			this.semicolon.TabIndex = 39;
@@ -616,7 +629,7 @@
 			// 
 			this.Lkey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.Lkey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.Lkey.Location = new System.Drawing.Point(542, 124);
+			this.Lkey.Location = new System.Drawing.Point(564, 182);
 			this.Lkey.Name = "Lkey";
 			this.Lkey.Size = new System.Drawing.Size(47, 47);
 			this.Lkey.TabIndex = 38;
@@ -628,7 +641,7 @@
 			// 
 			this.Kkey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.Kkey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.Kkey.Location = new System.Drawing.Point(489, 124);
+			this.Kkey.Location = new System.Drawing.Point(511, 182);
 			this.Kkey.Name = "Kkey";
 			this.Kkey.Size = new System.Drawing.Size(47, 47);
 			this.Kkey.TabIndex = 37;
@@ -640,7 +653,7 @@
 			// 
 			this.Jkey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.Jkey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.Jkey.Location = new System.Drawing.Point(436, 124);
+			this.Jkey.Location = new System.Drawing.Point(458, 182);
 			this.Jkey.Name = "Jkey";
 			this.Jkey.Size = new System.Drawing.Size(47, 47);
 			this.Jkey.TabIndex = 36;
@@ -652,7 +665,7 @@
 			// 
 			this.Hkey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.Hkey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.Hkey.Location = new System.Drawing.Point(383, 124);
+			this.Hkey.Location = new System.Drawing.Point(405, 182);
 			this.Hkey.Name = "Hkey";
 			this.Hkey.Size = new System.Drawing.Size(47, 47);
 			this.Hkey.TabIndex = 35;
@@ -664,7 +677,7 @@
 			// 
 			this.Gkey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.Gkey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.Gkey.Location = new System.Drawing.Point(330, 124);
+			this.Gkey.Location = new System.Drawing.Point(352, 182);
 			this.Gkey.Name = "Gkey";
 			this.Gkey.Size = new System.Drawing.Size(47, 47);
 			this.Gkey.TabIndex = 34;
@@ -676,7 +689,7 @@
 			// 
 			this.Fkey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.Fkey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.Fkey.Location = new System.Drawing.Point(277, 124);
+			this.Fkey.Location = new System.Drawing.Point(299, 182);
 			this.Fkey.Name = "Fkey";
 			this.Fkey.Size = new System.Drawing.Size(47, 47);
 			this.Fkey.TabIndex = 33;
@@ -688,7 +701,7 @@
 			// 
 			this.Dkey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.Dkey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.Dkey.Location = new System.Drawing.Point(224, 124);
+			this.Dkey.Location = new System.Drawing.Point(246, 182);
 			this.Dkey.Name = "Dkey";
 			this.Dkey.Size = new System.Drawing.Size(47, 47);
 			this.Dkey.TabIndex = 32;
@@ -700,7 +713,7 @@
 			// 
 			this.Skey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.Skey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.Skey.Location = new System.Drawing.Point(171, 124);
+			this.Skey.Location = new System.Drawing.Point(193, 182);
 			this.Skey.Name = "Skey";
 			this.Skey.Size = new System.Drawing.Size(47, 47);
 			this.Skey.TabIndex = 31;
@@ -712,7 +725,7 @@
 			// 
 			this.Akey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.Akey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.Akey.Location = new System.Drawing.Point(118, 124);
+			this.Akey.Location = new System.Drawing.Point(140, 182);
 			this.Akey.Name = "Akey";
 			this.Akey.Size = new System.Drawing.Size(47, 47);
 			this.Akey.TabIndex = 30;
@@ -724,7 +737,7 @@
 			// 
 			this.capslock.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.capslock.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.capslock.Location = new System.Drawing.Point(25, 124);
+			this.capslock.Location = new System.Drawing.Point(47, 182);
 			this.capslock.Name = "capslock";
 			this.capslock.Size = new System.Drawing.Size(87, 47);
 			this.capslock.TabIndex = 28;
@@ -737,7 +750,7 @@
 			// 
 			this.RCtrl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.RCtrl.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.RCtrl.Location = new System.Drawing.Point(737, 230);
+			this.RCtrl.Location = new System.Drawing.Point(759, 288);
 			this.RCtrl.Name = "RCtrl";
 			this.RCtrl.Size = new System.Drawing.Size(83, 47);
 			this.RCtrl.TabIndex = 69;
@@ -749,7 +762,7 @@
 			// 
 			this.Spacebar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.Spacebar.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.Spacebar.Location = new System.Drawing.Point(237, 230);
+			this.Spacebar.Location = new System.Drawing.Point(259, 288);
 			this.Spacebar.Name = "Spacebar";
 			this.Spacebar.Size = new System.Drawing.Size(272, 47);
 			this.Spacebar.TabIndex = 60;
@@ -760,7 +773,7 @@
 			// 
 			this.LAlt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.LAlt.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.LAlt.Location = new System.Drawing.Point(171, 230);
+			this.LAlt.Location = new System.Drawing.Point(193, 288);
 			this.LAlt.Name = "LAlt";
 			this.LAlt.Size = new System.Drawing.Size(60, 47);
 			this.LAlt.TabIndex = 59;
@@ -772,7 +785,7 @@
 			// 
 			this.button69.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.button69.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.button69.Location = new System.Drawing.Point(92, 230);
+			this.button69.Location = new System.Drawing.Point(114, 288);
 			this.button69.Name = "button69";
 			this.button69.Size = new System.Drawing.Size(73, 47);
 			this.button69.TabIndex = 57;
@@ -783,7 +796,7 @@
 			// 
 			this.LCntrl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.LCntrl.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.LCntrl.Location = new System.Drawing.Point(25, 230);
+			this.LCntrl.Location = new System.Drawing.Point(47, 288);
 			this.LCntrl.Name = "LCntrl";
 			this.LCntrl.Size = new System.Drawing.Size(61, 47);
 			this.LCntrl.TabIndex = 56;
@@ -795,7 +808,7 @@
 			// 
 			this.RAlt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.RAlt.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.RAlt.Location = new System.Drawing.Point(515, 230);
+			this.RAlt.Location = new System.Drawing.Point(537, 288);
 			this.RAlt.Name = "RAlt";
 			this.RAlt.Size = new System.Drawing.Size(60, 47);
 			this.RAlt.TabIndex = 70;
@@ -807,7 +820,7 @@
 			// 
 			this.button41.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.button41.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.button41.Location = new System.Drawing.Point(579, 230);
+			this.button41.Location = new System.Drawing.Point(601, 288);
 			this.button41.Name = "button41";
 			this.button41.Size = new System.Drawing.Size(73, 47);
 			this.button41.TabIndex = 71;
@@ -818,7 +831,7 @@
 			// 
 			this.button55.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
 			this.button55.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.button55.Location = new System.Drawing.Point(658, 230);
+			this.button55.Location = new System.Drawing.Point(680, 288);
 			this.button55.Name = "button55";
 			this.button55.Size = new System.Drawing.Size(73, 47);
 			this.button55.TabIndex = 72;
@@ -829,6 +842,20 @@
 			// 
 			this.Keyboard.Anchor = System.Windows.Forms.AnchorStyles.None;
 			this.Keyboard.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.Keyboard.Controls.Add(this.FinishKeyComboButton);
+			this.Keyboard.Controls.Add(this.EscapeKey);
+			this.Keyboard.Controls.Add(this.Function12);
+			this.Keyboard.Controls.Add(this.Function11);
+			this.Keyboard.Controls.Add(this.Function10);
+			this.Keyboard.Controls.Add(this.Function9);
+			this.Keyboard.Controls.Add(this.Function8);
+			this.Keyboard.Controls.Add(this.Function7);
+			this.Keyboard.Controls.Add(this.Function6);
+			this.Keyboard.Controls.Add(this.Function5);
+			this.Keyboard.Controls.Add(this.Function4);
+			this.Keyboard.Controls.Add(this.Function3);
+			this.Keyboard.Controls.Add(this.Function2);
+			this.Keyboard.Controls.Add(this.Function1);
 			this.Keyboard.Controls.Add(this.button55);
 			this.Keyboard.Controls.Add(this.button41);
 			this.Keyboard.Controls.Add(this.RAlt);
@@ -890,18 +917,173 @@
 			this.Keyboard.Controls.Add(this.twokey);
 			this.Keyboard.Controls.Add(this.onekey);
 			this.Keyboard.Controls.Add(this.tilde);
-			this.Keyboard.Location = new System.Drawing.Point(0, -3);
+			this.Keyboard.Location = new System.Drawing.Point(-25, -15);
 			this.Keyboard.Name = "Keyboard";
-			this.Keyboard.Size = new System.Drawing.Size(840, 304);
+			this.Keyboard.Size = new System.Drawing.Size(896, 356);
 			this.Keyboard.TabIndex = 75;
 			this.Keyboard.TabStop = false;
+			// 
+			// Function4
+			// 
+			this.Function4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+			this.Function4.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.Function4.Location = new System.Drawing.Point(268, 19);
+			this.Function4.Name = "Function4";
+			this.Function4.Size = new System.Drawing.Size(47, 47);
+			this.Function4.TabIndex = 76;
+			this.Function4.Text = "F4";
+			this.Function4.UseVisualStyleBackColor = false;
+			// 
+			// Function3
+			// 
+			this.Function3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+			this.Function3.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.Function3.Location = new System.Drawing.Point(215, 19);
+			this.Function3.Name = "Function3";
+			this.Function3.Size = new System.Drawing.Size(47, 47);
+			this.Function3.TabIndex = 75;
+			this.Function3.Text = "F3";
+			this.Function3.UseVisualStyleBackColor = false;
+			// 
+			// Function2
+			// 
+			this.Function2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+			this.Function2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.Function2.Location = new System.Drawing.Point(162, 19);
+			this.Function2.Name = "Function2";
+			this.Function2.Size = new System.Drawing.Size(47, 47);
+			this.Function2.TabIndex = 74;
+			this.Function2.Text = "F2";
+			this.Function2.UseVisualStyleBackColor = false;
+			// 
+			// Function1
+			// 
+			this.Function1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+			this.Function1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.Function1.Location = new System.Drawing.Point(109, 19);
+			this.Function1.Name = "Function1";
+			this.Function1.Size = new System.Drawing.Size(47, 47);
+			this.Function1.TabIndex = 73;
+			this.Function1.Text = "F1";
+			this.Function1.UseVisualStyleBackColor = false;
+			// 
+			// Function8
+			// 
+			this.Function8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+			this.Function8.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.Function8.Location = new System.Drawing.Point(497, 18);
+			this.Function8.Name = "Function8";
+			this.Function8.Size = new System.Drawing.Size(47, 47);
+			this.Function8.TabIndex = 80;
+			this.Function8.Text = "F8";
+			this.Function8.UseVisualStyleBackColor = false;
+			// 
+			// Function7
+			// 
+			this.Function7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+			this.Function7.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.Function7.Location = new System.Drawing.Point(444, 18);
+			this.Function7.Name = "Function7";
+			this.Function7.Size = new System.Drawing.Size(47, 47);
+			this.Function7.TabIndex = 79;
+			this.Function7.Text = "F7";
+			this.Function7.UseVisualStyleBackColor = false;
+			// 
+			// Function6
+			// 
+			this.Function6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+			this.Function6.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.Function6.Location = new System.Drawing.Point(391, 18);
+			this.Function6.Name = "Function6";
+			this.Function6.Size = new System.Drawing.Size(47, 47);
+			this.Function6.TabIndex = 78;
+			this.Function6.Text = "F6";
+			this.Function6.UseVisualStyleBackColor = false;
+			// 
+			// Function5
+			// 
+			this.Function5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+			this.Function5.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.Function5.Location = new System.Drawing.Point(338, 18);
+			this.Function5.Name = "Function5";
+			this.Function5.Size = new System.Drawing.Size(47, 47);
+			this.Function5.TabIndex = 77;
+			this.Function5.Text = "F5";
+			this.Function5.UseVisualStyleBackColor = false;
+			// 
+			// Function12
+			// 
+			this.Function12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+			this.Function12.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.Function12.Location = new System.Drawing.Point(723, 18);
+			this.Function12.Name = "Function12";
+			this.Function12.Size = new System.Drawing.Size(47, 47);
+			this.Function12.TabIndex = 84;
+			this.Function12.Text = "F12";
+			this.Function12.UseVisualStyleBackColor = false;
+			// 
+			// Function11
+			// 
+			this.Function11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+			this.Function11.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.Function11.Location = new System.Drawing.Point(670, 18);
+			this.Function11.Name = "Function11";
+			this.Function11.Size = new System.Drawing.Size(47, 47);
+			this.Function11.TabIndex = 83;
+			this.Function11.Text = "F11";
+			this.Function11.UseVisualStyleBackColor = false;
+			// 
+			// Function10
+			// 
+			this.Function10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+			this.Function10.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.Function10.Location = new System.Drawing.Point(617, 18);
+			this.Function10.Name = "Function10";
+			this.Function10.Size = new System.Drawing.Size(47, 47);
+			this.Function10.TabIndex = 82;
+			this.Function10.Text = "F10";
+			this.Function10.UseVisualStyleBackColor = false;
+			// 
+			// Function9
+			// 
+			this.Function9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+			this.Function9.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.Function9.Location = new System.Drawing.Point(564, 18);
+			this.Function9.Name = "Function9";
+			this.Function9.Size = new System.Drawing.Size(47, 47);
+			this.Function9.TabIndex = 81;
+			this.Function9.Text = "F9";
+			this.Function9.UseVisualStyleBackColor = false;
+			// 
+			// EscapeKey
+			// 
+			this.EscapeKey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+			this.EscapeKey.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.EscapeKey.Location = new System.Drawing.Point(47, 19);
+			this.EscapeKey.Name = "EscapeKey";
+			this.EscapeKey.Size = new System.Drawing.Size(47, 47);
+			this.EscapeKey.TabIndex = 85;
+			this.EscapeKey.Text = "Esc";
+			this.EscapeKey.UseVisualStyleBackColor = false;
+			// 
+			// FinishKeyComboButton
+			// 
+			this.FinishKeyComboButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+			this.FinishKeyComboButton.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.FinishKeyComboButton.Location = new System.Drawing.Point(795, 18);
+			this.FinishKeyComboButton.Name = "FinishKeyComboButton";
+			this.FinishKeyComboButton.Size = new System.Drawing.Size(47, 47);
+			this.FinishKeyComboButton.TabIndex = 86;
+			this.FinishKeyComboButton.Text = "->";
+			this.FinishKeyComboButton.UseVisualStyleBackColor = false;
+			this.FinishKeyComboButton.Visible = false;
 			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.ClientSize = new System.Drawing.Size(840, 301);
+			this.ClientSize = new System.Drawing.Size(844, 334);
 			this.Controls.Add(this.Keyboard);
 			this.MaximizeBox = false;
 			this.Name = "Form1";
@@ -976,6 +1158,20 @@
         private System.Windows.Forms.Button button41;
         private System.Windows.Forms.Button button55;
         private System.Windows.Forms.GroupBox Keyboard;
-    }
+		private System.Windows.Forms.Button EscapeKey;
+		private System.Windows.Forms.Button Function12;
+		private System.Windows.Forms.Button Function11;
+		private System.Windows.Forms.Button Function10;
+		private System.Windows.Forms.Button Function9;
+		private System.Windows.Forms.Button Function8;
+		private System.Windows.Forms.Button Function7;
+		private System.Windows.Forms.Button Function6;
+		private System.Windows.Forms.Button Function5;
+		private System.Windows.Forms.Button Function4;
+		private System.Windows.Forms.Button Function3;
+		private System.Windows.Forms.Button Function2;
+		private System.Windows.Forms.Button Function1;
+		private System.Windows.Forms.Button FinishKeyComboButton;
+	}
 }
 
