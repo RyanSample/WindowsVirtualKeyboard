@@ -56,14 +56,19 @@ namespace VirtualKeyboard
         {
             if (getShiftKeyState() ^ getCapsLockKeyState()) { 
                 Console.WriteLine(buttonText.ToUpper());
-				SendKeys.Send(buttonText.ToUpper());
+				sendString(buttonText.ToUpper());
 			}
 			else         
 			{
 				Console.WriteLine(buttonText);
-				SendKeys.Send(buttonText); 
+				sendString(buttonText); 
 			}
         }
+
+		public void escapeKeyPressed()
+		{
+			sendString("{ESC}");
+		}
 
         public void numericalOrSymbolKeyPressed(Button inputButton)
         {
@@ -76,22 +81,16 @@ namespace VirtualKeyboard
 				//windows forms uses an '&' as an escape character so when we hit shift+7 we get '&&' instead of '&'
 				if(characters[0] == "&&")
 				{
-					SendKeys.Send("{&}");
+					sendString("{&}");
 					return;//check this when sending key combos, may become an issue
 				}
-				SendKeys.Send("{" + characters[0] + "}");
+				sendString("{" + characters[0] + "}");
 			}
 			else
 			{
-				SendKeys.Send("{" + characters[1] + "}");
+				sendString("{" + characters[1] + "}");
 			}
         }
-		//this method will take care of handling inputs that may have special meaning such as brackets
-		public void symbolOnlyKeyPressed(Button inputButton)
-		{
-			string[] characters = getButtonCharacters(inputButton);
-			
-		}
 
 		private static string[] getButtonCharacters(Button inputButton)
 		{
@@ -100,6 +99,10 @@ namespace VirtualKeyboard
 			return buttonText.Split(separators, StringSplitOptions.None);
 		}
 
+		private void sendString(string keys)
+		{
+			SendKeys.Send(keys);
+		}
         //get methods return the current state of the keys pressed
         public bool getShiftKeyState()
         {

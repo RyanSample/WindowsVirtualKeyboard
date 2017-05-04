@@ -1065,6 +1065,7 @@
 			this.EscapeKey.TabIndex = 85;
 			this.EscapeKey.Text = "Esc";
 			this.EscapeKey.UseVisualStyleBackColor = false;
+			this.EscapeKey.MouseClick += new System.Windows.Forms.MouseEventHandler(this.escapeKeyClicked);
 			// 
 			// FinishKeyComboButton
 			// 

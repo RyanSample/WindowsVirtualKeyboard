@@ -59,6 +59,11 @@ namespace VirtualKeyboard
             keyboard.alphabetKeyPressed(button.Text.ToLower());
         }
 
+		private void escapeKeyClicked(object sender, MouseEventArgs e)
+		{
+			Button button = sender as Button;
+		}
+
         private void shiftKeyButtonClicked(object sender, MouseEventArgs e)
         {            
             Button button = sender as Button;
