@@ -70,6 +70,11 @@ namespace VirtualKeyboard
             keyboard.shiftKeyPressed();
             determineShiftKeyStateAndSetBackgroundColor();
         }
+
+		private void spacebarClicked(object sender, MouseEventArgs e)
+		{
+			keyboard.spacebarPressed();
+		}
         
 		private void capsLockKeyClicked(object sender, MouseEventArgs e)
 		{

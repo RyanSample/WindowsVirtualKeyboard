@@ -768,6 +768,7 @@
 			this.Spacebar.TabIndex = 60;
 			this.Spacebar.Text = "Spacebar";
 			this.Spacebar.UseVisualStyleBackColor = false;
+			this.Spacebar.MouseClick += new System.Windows.Forms.MouseEventHandler(this.spacebarClicked);
 			// 
 			// LAlt
 			// 

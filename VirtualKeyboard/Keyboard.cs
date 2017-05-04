@@ -92,6 +92,11 @@ namespace VirtualKeyboard
 			}
         }
 
+		public void spacebarPressed()
+		{
+			sendString(" ");
+		}
+
 		private static string[] getButtonCharacters(Button inputButton)
 		{
 			string buttonText = inputButton.Text;
